@@ -1,0 +1,153 @@
+tap "derailed/k9s"
+tap "hashicorp/tap"
+tap "homebrew/services"
+tap "warrensbox/tap"
+# Static checker for GitHub Actions workflow files
+brew "actionlint"
+# Securely manage AWS API credentials using AWS SSO
+brew "aws-sso-cli"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Prevent cloud misconfigurations during build-time for IaC tools
+brew "checkov"
+# Linux virtual machines
+brew "lima"
+# Container runtimes on MacOS (and Linux) with minimal setup
+brew "colima", restart_service: :changed
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# Load/unload environment variables based on $PWD
+brew "direnv"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Modern, maintained replacement for ls
+brew "eza"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# Kubernetes package manager
+brew "helm"
+# Improved top (interactive process viewer)
+brew "htop"
+# Feature-rich interactive Jira CLI
+brew "jira-cli"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
+# Access large language models from the command-line
+brew "llm"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# CLI for Node.js style checker and lint tool for Markdown files
+brew "markdownlint-cli"
+# Java-based project management
+brew "maven"
+# Create modern online books from Markdown files
+brew "mdbook"
+# Run a Kubernetes cluster locally
+brew "minikube"
+# Create, run, and share large language models (LLMs)
+brew "ollama"
+# Drop-in replacement for Terraform. Infrastructure as Code Tool
+brew "opentofu", link: false
+# Swiss-army knife of markup format conversion
+brew "pandoc"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
+# Object-relational database system
+brew "postgresql@18", link: true
+# Framework for managing multi-language pre-commit hooks
+brew "pre-commit"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Generic machine emulator and virtualizer
+brew "qemu"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+# User interface to the TELNET protocol
+brew "telnet"
+# Tool to generate documentation from Terraform modules
+brew "terraform-docs"
+# Static analysis security scanner for your terraform code
+brew "tfsec"
+# Command-line tool to switch between Terraform versions
+brew "tfswitch", link: false
+# Terminal multiplexer
+brew "tmux"
+# OpenTofu version manager inspired by tfenv
+brew "tofuenv"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
+# Internet file retriever
+brew "wget"
+# Linter for YAML files
+brew "yamllint"
+# Process YAML, JSON, XML, CSV and properties documents from the CLI
+brew "yq"
+# Feature-rich command-line audio/video downloader
+brew "yt-dlp"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+# Compact TeX distribution as alternative to the full TeX Live / MacTeX
+cask "basictex"
+# Anthropic's official Claude AI desktop app
+cask "claude"
+# Terminal-based AI coding assistant
+cask "claude-code"
+# Write, edit, and chat about your code with AI
+cask "cursor"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
+cask "font-fira-code-nerd-font"
+cask "font-jetbrains-mono-nerd-font"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "gcloud-cli"
+# Desktop client for GitHub repositories
+cask "github"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+cask "microsoft-remote-desktop"
+# Minimal installer for conda
+cask "miniconda"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Plugin for AWS CLI to start and end sessions that connect to managed instances
+cask "session-manager-plugin"
+cask "tfswitch"
+# Open-source code editor
+cask "visual-studio-code"
+# GPU-accelerated cross-platform terminal emulator and multiplexer
+cask "wezterm"
+vscode "anthropic.claude-code"
+vscode "donjayamanne.githistory"
+vscode "eamodio.gitlens"
+vscode "hashicorp.terraform"
+vscode "mechatroner.rainbow-csv"
+vscode "mhutchie.git-graph"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode.vscode-chat-customizations-evaluations"
+cargo "mdbook"
+cargo "mdbook-alerts"
+cargo "mdbook-mermaid"
+cargo "mdbook-pagetoc"
+npm "@github/copilot"
+npm "corepack"
